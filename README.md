@@ -1,3 +1,9 @@
+# Modified version of CAFFE
+
+This is a modified version of CAFFE. We modified the Convolutional layer forwarding process for GPU, so that it can
+have trade-off among memory size, speed and power consumption. The modification is targeting on mobile/embedded GPUs.
+
+
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
